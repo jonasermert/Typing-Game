@@ -1,12 +1,12 @@
-/* Paste this to html */
+@import url('https://fonts.googleapis.com/css?family=Jost:300,400,500,600,700,800&display=swap');
 
-/* <link
-href="https://fonts.googleapis.com/css?family=Jost:300,400,500,600,700,800&display=swap"
-rel="stylesheet"
-/> */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Legacy App styles (kept for compatibility) */
 
 /* Global Styles */
-
 * {
     box-sizing: border-box;
     margin: 0;

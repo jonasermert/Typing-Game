@@ -1,9 +1,9 @@
 const Button = ({handleStart, disabled}) => {
 
-    return(
-        <button onClick={handleStart}>{disabled ? "Start" : "Restart" }</button>
+    return (
+        <button onClick={handleStart}>{disabled ? "Start" : "Restart"}</button>
     )
 
 }
 
-    export default Button;
+export default Button;
