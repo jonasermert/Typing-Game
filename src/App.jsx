@@ -73,7 +73,7 @@ function App() {
     }, [disabled, time]);
 
     return (
-        <div className="w-full min-h-screen bg-[#111] flex lg:flex-row flex-col items-center lg:items-start p-4 lg:p-0">
+        <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center p-6">
             <Container>
                 <TypeRacer
                     newWord={newWord}
