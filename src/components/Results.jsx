@@ -1,6 +1,6 @@
 const Results = ({correctResults, wrongResults, countCorrect}) => {
     return (
-        <div className="w-full max-w-[720px] bg-white flex flex-col p-6 rounded-lg shadow">
+        <div className="w-full bg-white flex flex-col p-6 rounded-lg shadow">
             <p className="text-black mb-4 font-medium">Correct Answers: {countCorrect}</p>
 
             <div className="w-full flex flex-col gap-4">

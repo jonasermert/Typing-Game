@@ -73,7 +73,7 @@ function App() {
     }, [disabled, time]);
 
     return (
-        <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center p-6">
+        <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 gap-6">
             <Container>
                 <TypeRacer
                     newWord={newWord}
@@ -87,11 +87,13 @@ function App() {
                 />
             </Container>
 
-            <Results
-                correctResults={correctResults}
-                wrongResults={wrongResults}
-                countCorrect={countCorrect}
-            />
+            <Container>
+              <Results
+                  correctResults={correctResults}
+                  wrongResults={wrongResults}
+                  countCorrect={countCorrect}
+              />
+            </Container>
         </div>
     );
 }
