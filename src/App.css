@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Jost:300,400,500,600,700,800&display=swap');
+@import './styles/tailwind-studio.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Legacy component styles removed — use Tailwind utilities in components */
+/* Studio Tailwind theme imported (tailwind + base + typography) */
 
 * {
     box-sizing: border-box;
