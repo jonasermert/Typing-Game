@@ -4,7 +4,7 @@ import Container from "./components/Container.jsx";
 import TypeRacer from "./components/TypeRacer.jsx";
 import Results from "./components/Results.jsx";
 
-import "./index.css";
+import "./App.css";
 
 const getRandomWord = () => Words[Math.floor(Math.random() * Words.length)];
 
