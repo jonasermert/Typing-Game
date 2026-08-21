@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}", "./src/styles/**/*.css"],
   theme: {
     extend: {
       keyframes: {
@@ -11,6 +11,16 @@ module.exports = {
       },
       animation: {
         scaleNumber: 'scaleNumber 2s infinite',
+      },
+      colors: {
+        background: '#111',
+        panel: '#283149',
+        panelDark: '#111727',
+        accent: '#f73859',
+      },
+      fontFamily: {
+        display: ['Mona Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['Mona Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
     },
   },
