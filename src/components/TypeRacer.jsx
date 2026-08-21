@@ -11,7 +11,7 @@ const TypeRacer = ({
                        handleStart,
                    }) => {
     return (
-        <div className="w-full h-[400px] flex flex-col justify-between items-center bg-[#283149] p-4 rounded-md">
+        <div className="w-full h-[400px] flex flex-col justify-between items-center bg-[#283149] p-4 rounded-md text-white">
             <div className="w-full bg-[#111727] text-white p-5 text-center rounded">
                 <p className="text-[26px] leading-none">{newWord}</p>
             </div>
