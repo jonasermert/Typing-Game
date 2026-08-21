@@ -49,4 +49,8 @@ Then open the local development URL shown in your terminal.
 4. Review your typing performance.
 5. Try again and improve your score.
 
+## 📸 Screenshot
+
+![Typing Game Screenshot](./screenshots/screenshot.jpg)
+
 Made with ❤️ by [Jonas Ermert](https://github.com/jonasermert)
