@@ -7,7 +7,7 @@ const Results = ({correctResults, wrongResults, countCorrect}) => {
                 <div className="w-1/3 max-h-[40vh] overflow-auto p-3">
                     {correctResults.map((correctWord, index) => (
                         <div key={`correct-${index}`} className="w-full p-3 bg-[#f73859] text-white rounded mb-2 break-words">
-                            <p className="text-white">{correctWord}</p>
+                            <p className="text-white" style={{color: '#fff'}}>{correctWord}</p>
                         </div>
                     ))}
                 </div>
